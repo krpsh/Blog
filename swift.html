@@ -5,7 +5,7 @@ header: Posts By Tag Swift
 group: navigation
 ---
 {% for tag in site.tags %}
-    {% if tag[0] == 'swift' %}
+    {% if tag[0] == 'Swift' %}
         <ul>
         {% assign pages_list = tag[1] %}
         {% include JB/pages_list %}

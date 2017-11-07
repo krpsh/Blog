@@ -1,7 +1,7 @@
 ---
 title: Lorem Ipsum One -c
 layout: post
-tag: c
+tag: C
 ---
 <p>
 One
