@@ -1,0 +1,14 @@
+---
+layout: page
+title: swift
+header: Posts By Tag Swift
+group: navigation
+---
+{% for tag in site.tags %}
+    {% if tag[0] == 'swift' %}
+        <ul>
+        {% assign pages_list = tag[1] %}
+        {% include JB/pages_list %}
+        </ul>
+    {% endif %}
+{% endfor %}
