@@ -4,13 +4,45 @@
  <title>krpsh's Blog</title>
  <link href="https://krpsh.github.io//atom.xml" rel="self"/>
  <link href="https://krpsh.github.io/"/>
- <updated>2017-11-08T02:25:29+09:00</updated>
+ <updated>2017-11-08T03:00:26+09:00</updated>
  <id>https://krpsh.github.io/</id>
  <author>
    <name>박상훈</name>
    <email>krpsh@me.com</email>
  </author>
 
+ 
+ <entry>
+   <title>첫 프로그램</title>
+   <link href="https://krpsh.github.io//2017/11/%E1%84%8E%E1%85%A5%E1%86%BA_%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7.html"/>
+   <updated>2017-11-08T00:00:00+09:00</updated>
+   <id>https://krpsh.github.io//2017/11/첫_프로그램</id>
+   <content type="html">&lt;p&gt;처음 언어를 배우면 무조건 접하는 &lt;strong&gt;Hello World!&lt;/strong&gt; 를 출력하는 프로그램입니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//
+//  001.cpp
+//  C++Program
+//
+//  Created by krpsh on 2017. 11. 8..
+//  Copyright © 2017년 krpsh. All rights reserved.
+//
+&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;출력 결과&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World!!
+Program ended with exit code: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Lorem Ipsu Four-cs</title>
