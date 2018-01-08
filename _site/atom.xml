@@ -4,7 +4,7 @@
  <title>krpsh's Blog</title>
  <link href="https://krpsh.github.io//atom.xml" rel="self"/>
  <link href="https://krpsh.github.io/"/>
- <updated>2017-11-08T03:00:26+09:00</updated>
+ <updated>2018-01-08T14:33:06+09:00</updated>
  <id>https://krpsh.github.io/</id>
  <author>
    <name>박상훈</name>
@@ -13,127 +13,102 @@
 
  
  <entry>
-   <title>첫 프로그램</title>
-   <link href="https://krpsh.github.io//2017/11/%E1%84%8E%E1%85%A5%E1%86%BA_%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7.html"/>
-   <updated>2017-11-08T00:00:00+09:00</updated>
-   <id>https://krpsh.github.io//2017/11/첫_프로그램</id>
-   <content type="html">&lt;p&gt;처음 언어를 배우면 무조건 접하는 &lt;strong&gt;Hello World!&lt;/strong&gt; 를 출력하는 프로그램입니다.&lt;/p&gt;
+   <title>주석 예제</title>
+   <link href="https://krpsh.github.io//2017/11/%E1%84%8C%E1%85%AE%E1%84%89%E1%85%A5%E1%86%A8-%E1%84%8B%E1%85%A8%E1%84%8C%E1%85%A6.html"/>
+   <updated>2017-11-15T00:00:00+09:00</updated>
+   <id>https://krpsh.github.io//2017/11/주석 예제</id>
+   <content type="html">&lt;p&gt;주석을 사용하는 프로그램 예제 입니다.&lt;/p&gt;
+&lt;h6 id=&quot;소스&quot;&gt;소스&lt;/h6&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;cm&quot;&gt;/*
+ 주석 예제 입니다.
+ 여러줄 주석
+*/&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello~&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2017&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;%s %d&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//C style
+&lt;/span&gt;    &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;   &lt;span class=&quot;c1&quot;&gt;//C++ style
+&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EXIT_SUCCESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h6 id=&quot;실행결과&quot;&gt;실행결과&lt;/h6&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello~ 2017
+Hello~ 2017
+Program ended with exit code: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h6 id=&quot;code-review&quot;&gt;Code Review&lt;/h6&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;3. /* ~~~ */ 여러줄 주석
+10. // 한줄 주석
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>네임스페이스</title>
+   <link href="https://krpsh.github.io//2017/11/%E1%84%82%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%B7%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3.html"/>
+   <updated>2017-11-15T00:00:00+09:00</updated>
+   <id>https://krpsh.github.io//2017/11/네임스페이스</id>
+   <content type="html">&lt;p&gt;네임스페이스를 사용해 보는 코드입니다.&lt;/p&gt;
 
-&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//
-//  001.cpp
-//  C++Program
-//
-//  Created by krpsh on 2017. 11. 8..
-//  Copyright © 2017년 krpsh. All rights reserved.
-//
-&lt;/span&gt;
-&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;h6 id=&quot;소스&quot;&gt;소스&lt;/h6&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2017&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;h&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot; &quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;endl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EXIT_SUCCESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h6 id=&quot;실행결과&quot;&gt;실행결과&lt;/h6&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello 2017
+Program ended with exit code: 0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h6 id=&quot;code-review&quot;&gt;Code Review&lt;/h6&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2. std 네임스페이스 사용 std::cout -&amp;gt; cout &amp;amp;&amp;amp; std::endl -&amp;gt; endl
+5. char 포인터 h 에 문자열 &quot;Hello&quot; 대입
+6. int 형 year변수에 2017 대입
+9. h 와 공백 출력
+10. year 출력
+12. 프로그램이 정상적으로 종료됬음을 의미
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>C++ 첫 프로그램</title>
+   <link href="https://krpsh.github.io//2017/11/C++-%E1%84%8E%E1%85%A5%E1%86%BA-%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%85%E1%85%A2%E1%86%B7.html"/>
+   <updated>2017-11-15T00:00:00+09:00</updated>
+   <id>https://krpsh.github.io//2017/11/C++ 첫 프로그램</id>
+   <content type="html">&lt;p&gt;누구나 프로그래밍을 처음 배우면 작성하게 되는&lt;/p&gt;
+&lt;h4 id=&quot;hello-world&quot;&gt;Hello World!&lt;/h4&gt;
+&lt;p&gt;출력 프로그램 입니다.&lt;/p&gt;
+
+&lt;h6 id=&quot;소스&quot;&gt;소스&lt;/h6&gt;
+&lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;
 &lt;/span&gt;
 &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cout&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;Hello World!!&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;출력 결과&lt;/p&gt;
+&lt;h6 id=&quot;실행-결과&quot;&gt;실행 결과&lt;/h6&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello World!!
 Program ended with exit code: 0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Lorem Ipsu Four-cs</title>
-   <link href="https://krpsh.github.io//2017/04/Lorem-Ipsuss.html"/>
-   <updated>2017-04-17T00:00:00+09:00</updated>
-   <id>https://krpsh.github.io//2017/04/Lorem-Ipsuss</id>
-   <content type="html">&lt;p&gt;
-Lorem ipsum dolor sit amet, ut paulo aperiam signiferumque quo. Quaeque pertinacia mnesarchum te vel. Ei tollit habemus delectus mel, pro zril cetero adipiscing an. Eius aliquip legimus ad mea, vix te quod eripuit, munere doctus oporteat qui te. Dolore fierent nam ea. Eos ex tale commune moderatius, ei mel malorum suscipit neglegentur. Has quod falli alienum ne.
-&lt;/p&gt;
-&lt;p&gt;
-
-Wisi impedit albucius cum no. Pri nibh posse in. Tollit copiosae mei at, summo perfecto gubergren cum cu. Pri verterem dissentiet te, error option legendos te ius. Nihil sapientem expetenda in qui, usu no dicit option.
-&lt;/p&gt;
-&lt;p&gt;
-Eam ad illud constituto, ne urbanitas reprimique qui. Ad duo quas quando vivendo, insolens accusamus ne vim. Ne vel lorem legimus commune, eam autem laudem ne, oratio cetero voluptatibus in cum. Ea tamquam assueverit philosophia vix, erroribus eloquentiam consectetuer est ea. Enim feugait concludaturque ad ius, ne vel stet placerat.
-&lt;/p&gt;
-&lt;p&gt;
-Te mea everti platonem sententiae, ius te cibo partem suavitate, at qui quidam urbanitas. Qui inimicus repudiandae ne, nobis vivendo te sea, his alia vivendum in. Vitae imperdiet vis at, eu impetus volutpat expetendis duo. Vel sonet commune ne, aliquid adipisci te vis. Pri in simul rationibus signiferumque, aperiri constituto ei vel.
-&lt;/p&gt;
-&lt;p&gt;
-Et modo dolorem referrentur usu. Exerci lobortis id mei, mel putant everti te. Qui error detraxit te, in vis ignota eripuit scripserit. Ut labore patrioque dissentiet has, feugiat propriae invidunt est ei, mei nostrud volutpat rationibus ei. Mea at graeci tritani, sint mediocrem vituperata no nec. Eu pri mazim vitae ocurreret, iudico graeco consectetuer mel cu, quo dico maiorum ei.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Lorem Ipsun Two-cs</title>
-   <link href="https://krpsh.github.io//2017/04/Lorem-Ipsun.html"/>
-   <updated>2017-04-17T00:00:00+09:00</updated>
-   <id>https://krpsh.github.io//2017/04/Lorem-Ipsun</id>
-   <content type="html">&lt;p&gt;
-Lorem ipsum dolor sit amet, ut paulo aperiam signiferumque quo. Quaeque pertinacia mnesarchum te vel. Ei tollit habemus delectus mel, pro zril cetero adipiscing an. Eius aliquip legimus ad mea, vix te quod eripuit, munere doctus oporteat qui te. Dolore fierent nam ea. Eos ex tale commune moderatius, ei mel malorum suscipit neglegentur. Has quod falli alienum ne.
-&lt;/p&gt;
-&lt;p&gt;
-
-Wisi impedit albucius cum no. Pri nibh posse in. Tollit copiosae mei at, summo perfecto gubergren cum cu. Pri verterem dissentiet te, error option legendos te ius. Nihil sapientem expetenda in qui, usu no dicit option.
-&lt;/p&gt;
-&lt;p&gt;
-Eam ad illud constituto, ne urbanitas reprimique qui. Ad duo quas quando vivendo, insolens accusamus ne vim. Ne vel lorem legimus commune, eam autem laudem ne, oratio cetero voluptatibus in cum. Ea tamquam assueverit philosophia vix, erroribus eloquentiam consectetuer est ea. Enim feugait concludaturque ad ius, ne vel stet placerat.
-&lt;/p&gt;
-&lt;p&gt;
-Te mea everti platonem sententiae, ius te cibo partem suavitate, at qui quidam urbanitas. Qui inimicus repudiandae ne, nobis vivendo te sea, his alia vivendum in. Vitae imperdiet vis at, eu impetus volutpat expetendis duo. Vel sonet commune ne, aliquid adipisci te vis. Pri in simul rationibus signiferumque, aperiri constituto ei vel.
-&lt;/p&gt;
-&lt;p&gt;
-Et modo dolorem referrentur usu. Exerci lobortis id mei, mel putant everti te. Qui error detraxit te, in vis ignota eripuit scripserit. Ut labore patrioque dissentiet has, feugiat propriae invidunt est ei, mei nostrud volutpat rationibus ei. Mea at graeci tritani, sint mediocrem vituperata no nec. Eu pri mazim vitae ocurreret, iudico graeco consectetuer mel cu, quo dico maiorum ei.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Lorem Ipsum One -c</title>
-   <link href="https://krpsh.github.io//2017/04/Lorem-Ipsum.html"/>
-   <updated>2017-04-17T00:00:00+09:00</updated>
-   <id>https://krpsh.github.io//2017/04/Lorem-Ipsum</id>
-   <content type="html">&lt;p&gt;
-One
-Lorem ipsum dolor sit amet, ut paulo aperiam signiferumque quo. Quaeque pertinacia mnesarchum te vel. Ei tollit habemus delectus mel, pro zril cetero adipiscing an. Eius aliquip legimus ad mea, vix te quod eripuit, munere doctus oporteat qui te. Dolore fierent nam ea. Eos ex tale commune moderatius, ei mel malorum suscipit neglegentur. Has quod falli alienum ne.
-&lt;/p&gt;
-&lt;p&gt;
-
-Wisi impedit albucius cum no. Pri nibh posse in. Tollit copiosae mei at, summo perfecto gubergren cum cu. Pri verterem dissentiet te, error option legendos te ius. Nihil sapientem expetenda in qui, usu no dicit option.
-&lt;/p&gt;
-&lt;p&gt;
-Eam ad illud constituto, ne urbanitas reprimique qui. Ad duo quas quando vivendo, insolens accusamus ne vim. Ne vel lorem legimus commune, eam autem laudem ne, oratio cetero voluptatibus in cum. Ea tamquam assueverit philosophia vix, erroribus eloquentiam consectetuer est ea. Enim feugait concludaturque ad ius, ne vel stet placerat.
-&lt;/p&gt;
-&lt;p&gt;
-Te mea everti platonem sententiae, ius te cibo partem suavitate, at qui quidam urbanitas. Qui inimicus repudiandae ne, nobis vivendo te sea, his alia vivendum in. Vitae imperdiet vis at, eu impetus volutpat expetendis duo. Vel sonet commune ne, aliquid adipisci te vis. Pri in simul rationibus signiferumque, aperiri constituto ei vel.
-&lt;/p&gt;
-&lt;p&gt;
-Et modo dolorem referrentur usu. Exerci lobortis id mei, mel putant everti te. Qui error detraxit te, in vis ignota eripuit scripserit. Ut labore patrioque dissentiet has, feugiat propriae invidunt est ei, mei nostrud volutpat rationibus ei. Mea at graeci tritani, sint mediocrem vituperata no nec. Eu pri mazim vitae ocurreret, iudico graeco consectetuer mel cu, quo dico maiorum ei.&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>Lorem Ipsu Three-c</title>
-   <link href="https://krpsh.github.io//2017/04/Lorem-Ipsu.html"/>
-   <updated>2017-04-17T00:00:00+09:00</updated>
-   <id>https://krpsh.github.io//2017/04/Lorem-Ipsu</id>
-   <content type="html">&lt;p&gt;
-Lorem ipsum dolor sit amet, ut paulo aperiam signiferumque quo. Quaeque pertinacia mnesarchum te vel. Ei tollit habemus delectus mel, pro zril cetero adipiscing an. Eius aliquip legimus ad mea, vix te quod eripuit, munere doctus oporteat qui te. Dolore fierent nam ea. Eos ex tale commune moderatius, ei mel malorum suscipit neglegentur. Has quod falli alienum ne.
-&lt;/p&gt;
-&lt;p&gt;
-
-Wisi impedit albucius cum no. Pri nibh posse in. Tollit copiosae mei at, summo perfecto gubergren cum cu. Pri verterem dissentiet te, error option legendos te ius. Nihil sapientem expetenda in qui, usu no dicit option.
-&lt;/p&gt;
-&lt;p&gt;
-Eam ad illud constituto, ne urbanitas reprimique qui. Ad duo quas quando vivendo, insolens accusamus ne vim. Ne vel lorem legimus commune, eam autem laudem ne, oratio cetero voluptatibus in cum. Ea tamquam assueverit philosophia vix, erroribus eloquentiam consectetuer est ea. Enim feugait concludaturque ad ius, ne vel stet placerat.
-&lt;/p&gt;
-&lt;p&gt;
-Te mea everti platonem sententiae, ius te cibo partem suavitate, at qui quidam urbanitas. Qui inimicus repudiandae ne, nobis vivendo te sea, his alia vivendum in. Vitae imperdiet vis at, eu impetus volutpat expetendis duo. Vel sonet commune ne, aliquid adipisci te vis. Pri in simul rationibus signiferumque, aperiri constituto ei vel.
-&lt;/p&gt;
-&lt;p&gt;
-Et modo dolorem referrentur usu. Exerci lobortis id mei, mel putant everti te. Qui error detraxit te, in vis ignota eripuit scripserit. Ut labore patrioque dissentiet has, feugiat propriae invidunt est ei, mei nostrud volutpat rationibus ei. Mea at graeci tritani, sint mediocrem vituperata no nec. Eu pri mazim vitae ocurreret, iudico graeco consectetuer mel cu, quo dico maiorum ei.&lt;/p&gt;
+&lt;h6 id=&quot;code-review&quot;&gt;Code Review&lt;/h6&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1. iostream 헤더를 포함하겠다는 의미
+3. 메인 함수. 반환은 정수 형
+5. 화면에 &quot;HelloWorld!&quot; 를 출력하는 부분
+6. 메인 함수가 끝난 후 정수 0 반환
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </content>
  </entry>
  
